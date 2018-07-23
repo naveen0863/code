@@ -1,0 +1,14 @@
+pragma solidity^0.4.20;
+
+contract usersdetails{
+
+         string public name="sowmya";
+         string public e_id="sowmya@123gmail.com";
+         string public company="nike";
+         uint public Ubar_code=13233;
+         
+        function getdetails() constant returns(string,string,string,uint){
+             
+              return(name,e_id,company,Ubar_code);
+     }
+}
