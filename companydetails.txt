@@ -4,26 +4,12 @@ pragma solidity ^0.4.20;
 
 
 contract CompanyDetails{
- 
-
              string public company="nike";
-    
-   
              string public type_ofproduct="nike";
-  
              uint public Cbar_code=13233; 
-  
-  
-
+             
              function  getCompanydetails() constant returns(string,string,uint){
-   
-
-     
-        return(company,type_ofproduct,Cbar_code);
-  
-  
-         }
-
-
+        return(company,type_ofproduct,Cbar_code)
+         
   
 }
